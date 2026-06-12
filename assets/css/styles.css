@@ -1,7 +1,3 @@
-body {
-  margin: 0;
-}
-
 header {
   display: flex;
   justify-content: space-between;
@@ -19,14 +15,25 @@ nav a:hover {
   color: #fff;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .hero {
   height: 100vh;
-  background-image: 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-image:
     linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('/images/background.jpg');
-  
+    url('./images/background.jpg');
+
   background-size: cover;
   background-position: center;
+  color: white;
 }
 
 .featured {
