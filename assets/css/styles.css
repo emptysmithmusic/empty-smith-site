@@ -17,12 +17,10 @@ nav a:hover {
 
 .hero {
   height: 100vh;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.85)),
-              url('../images/bg.jpg') no-repeat center center/cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
+  background-image: url('images/your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .featured {
