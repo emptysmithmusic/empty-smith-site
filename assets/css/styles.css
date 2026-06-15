@@ -11,15 +11,11 @@ body{
     background:#161411;
 }
 
-.hero{
-    height:100vh;
-
-    background:
-    linear-gradient(
-        rgba(0,0,0,.55),
-        rgba(0,0,0,.55)
-    ),
+.hero {
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
     url("../images/hero.jpg");
+}
 
     background-size:cover;
     background-position:center;
