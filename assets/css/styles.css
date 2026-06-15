@@ -1,77 +1,99 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background: #111;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-nav a {
-  margin-left: 15px;
-  text-decoration: none;
-  color: #ccc;
+body{
+    font-family: Georgia, serif;
+    line-height:1.7;
+    color:#f4f1ea;
+    background:#161411;
 }
 
-nav a:hover {
-  color: #fff;
+.hero{
+    height:100vh;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,.55),
+        rgba(0,0,0,.55)
+    ),
+    url("../images/hero.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
 }
 
-body {
-  margin: 0;
-  padding: 0;
+.overlay{
+    max-width:800px;
+    padding:20px;
 }
 
-.hero {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  background-image:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('./images/background.jpg');
-
-  background-size: cover;
-  background-position: center;
-  color: white;
+.hero h1{
+    font-size:4rem;
+    margin-bottom:10px;
 }
 
-.featured {
-  padding: 40px;
-  max-width: 800px;
-  margin: auto;
+.hero p{
+    font-size:1.3rem;
+    margin-bottom:30px;
 }
 
-footer {
-  text-align: center;
-  padding: 20px;
-  font-size: 12px;
-  color: #777;
+.buttons a,
+.button{
+    display:inline-block;
+    margin:10px;
+    padding:12px 24px;
+    text-decoration:none;
+
+    background:#b28a4d;
+    color:white;
+
+    border-radius:5px;
 }
 
-h1 {
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
+section{
+    max-width:1000px;
+    margin:auto;
+    padding:80px 20px;
 }
 
-h2 {
-  font-weight: 300;
-  letter-spacing: 1px;
+.about{
+    display:flex;
+    gap:40px;
+    align-items:center;
 }
 
-p {
-  font-weight: 300;
-  color: #ccc;
+.about img{
+    width:250px;
+    border-radius:10px;
 }
 
-.hero h2 {
-  max-width: 500px;
-  font-size: 28px;
-  line-height: 1.4;
+h2{
+    margin-bottom:20px;
+    color:#d8b47d;
 }
 
-.hero p {
-  margin-top: 10px;
-  color: #aaa;
+footer{
+    text-align:center;
+    padding:40px;
+    background:#0f0d0b;
+}
+
+@media(max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .about{
+        flex-direction:column;
+        text-align:center;
+    }
 }
