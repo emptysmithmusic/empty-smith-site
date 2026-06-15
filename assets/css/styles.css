@@ -32,10 +32,20 @@ body {
   font-weight: bold;
 }
 
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
+.hero {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.75)),
+        url("../../images/hero.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .overlay{
