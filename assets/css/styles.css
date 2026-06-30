@@ -104,6 +104,16 @@ footer{
     background:#0f0d0b;
 }
 
+.contact a {
+    color: #d8b47d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    opacity: 0.8;
+}
+
 @media(max-width:768px){
 
     .hero h1{
