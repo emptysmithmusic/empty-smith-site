@@ -106,6 +106,7 @@ h2{
 .social-icons {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 28px;
     margin-top: 25px;
 }
