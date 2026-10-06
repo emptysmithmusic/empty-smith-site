@@ -98,6 +98,34 @@ h2{
     color:#d8b47d;
 }
 
+.socials {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    margin-top: 25px;
+}
+
+.social-icons a {
+    color: #d8b47d;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons svg {
+    width: 30px;
+    height: 30px;
+    fill: currentColor;
+}
+
+.social-icons a:hover {
+    opacity: 0.7;
+    transform: translateY(-3px);
+}
+
 footer{
     text-align:center;
     padding:40px;
